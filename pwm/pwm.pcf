@@ -1,0 +1,31 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Mar 16 23:34:28 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "enable" LOCATE = SITE "T5" LEVEL 1;
+COMP "cycle_on<0>" LOCATE = SITE "C17" LEVEL 1;
+COMP "cycle_on<1>" LOCATE = SITE "C18" LEVEL 1;
+COMP "cycle_on<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "cycle_on<3>" LOCATE = SITE "D18" LEVEL 1;
+COMP "cycle_on<4>" LOCATE = SITE "E18" LEVEL 1;
+COMP "cycle_on<5>" LOCATE = SITE "E16" LEVEL 1;
+COMP "cycle_on<6>" LOCATE = SITE "F18" LEVEL 1;
+COMP "cycle_on<7>" LOCATE = SITE "F17" LEVEL 1;
+COMP "pre<0>" LOCATE = SITE "V9" LEVEL 1;
+COMP "pre<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "pwmout" LOCATE = SITE "R5" LEVEL 1;
+COMP "period<0>" LOCATE = SITE "U7" LEVEL 1;
+COMP "period<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "period<2>" LOCATE = SITE "T4" LEVEL 1;
+COMP "period<3>" LOCATE = SITE "V4" LEVEL 1;
+COMP "period<4>" LOCATE = SITE "U5" LEVEL 1;
+COMP "period<5>" LOCATE = SITE "V5" LEVEL 1;
+COMP "rst" LOCATE = SITE "M16" LEVEL 1;
+COMP "period<6>" LOCATE = SITE "R3" LEVEL 1;
+COMP "period<7>" LOCATE = SITE "T3" LEVEL 1;
+NET "clk_IBUF" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

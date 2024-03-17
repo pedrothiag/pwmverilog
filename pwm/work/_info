@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/souza/Desktop/pwm/pwm
+T_opt
+!s110 1710643577
+V0B_NSd`H7z5C:eWhafnKd1
+04 6 4 work pwm_tb fast 0
+04 4 4 work glbl fast 0
+=1-b07b250d014c-65f65978-378-a88
+o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+vbasic_pwm
+Z2 !s110 1710643576
+!i10b 1
+!s100 30kf8YgMbzPDGOgX^n]>Q2
+I66kTXYjlkUWnB`_DNg1<`3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1710642732
+Z5 8pwm.v
+Z6 Fpwm.v
+L0 82
+Z7 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z8 !s108 1710643576.000000
+Z9 !s107 pwm.v|
+Z10 !s90 -reportprogress|300|pwm.v|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vclockdivider
+R2
+!i10b 1
+!s100 F:Ie4z52]Ed8Qmf13OW;e1
+IGaa@_mOSSBg4Gm3oSMnYU2
+R3
+R0
+R4
+R5
+R6
+L0 43
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vglbl
+R2
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+INz3046GECC=X7FgQ2]FR>3
+R3
+R0
+w1381681120
+8C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FC:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+R11
+R1
+vprescaler
+R2
+!i10b 1
+!s100 5U[XDZ`dEYFTWU<Fcm=?93
+ICT82TeLOAb:f@5]:DIgMh3
+R3
+R0
+R4
+R5
+R6
+L0 20
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vpwm
+R2
+!i10b 1
+!s100 1]Qe>`zC27Vk[8=5<6gmk3
+IAgP5D4zj`F<CK^L;FLOEo0
+R3
+R0
+R4
+R5
+R6
+L0 4
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vpwm_tb
+R2
+!i10b 1
+!s100 T0a3eTcQi>A]cl7BDIV[I0
+Il1gib2EUf>P53dPk2<H:d1
+R3
+R0
+w1710643569
+8pwm_tb.v
+Fpwm_tb.v
+L0 25
+R7
+r1
+!s85 0
+31
+R8
+!s107 pwm_tb.v|
+!s90 -reportprogress|300|pwm_tb.v|
+!i113 0
+R11
+R1
